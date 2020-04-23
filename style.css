@@ -1,0 +1,18 @@
+body {
+  font-family: helvetica;
+  margin: 0;
+}
+.container{
+  width :100%;
+}
+.top-wrapper{
+  text-align: center;
+}
+.profile{
+  float: left;
+  margin-left: 10px;
+}
+.profile img{
+  border-radius: 50%;
+  width: 50px;
+}
