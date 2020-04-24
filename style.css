@@ -47,9 +47,20 @@ a {
 .search-box{
   margin: 50px auto;
   width: 500px;
+  position:  relative;
+  white-space: nowrap;
 }
 .search{
   border: 0px solid #dbdbdb;
   border-radius: 5px;
-  background: rgba(50 , 50, 50, 0.5);
+  background:#dbdbdb;
+  box-shadow: 2px 2px 2px grey;
+}
+.icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
 }
