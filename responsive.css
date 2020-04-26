@@ -9,7 +9,7 @@
 }
 
 @media(max-width: 680px) {
-    .top-wrapper{
+    .container{
         flex-direction: column;
         margin: 0 auto;
 
@@ -35,7 +35,7 @@
 }
 
 @media(max-width: 350px) {
-    .top-wrapper{
+    .container{
         flex-direction: column;
         margin: 0 auto;
 
