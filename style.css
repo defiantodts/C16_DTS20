@@ -1,4 +1,4 @@
-/* Mulai code Anda dari baris terakhir */
+
 
 * {
   box-sizing: border-box;
@@ -62,14 +62,14 @@ a {
   border-bottom: 2px solid white;
 }
 
-/* .form-signup input{
+.form-signup input{
   width: 85%
   padding:5px 0;
   background: none;
   border: none;
   outline: none;
   color: white;
-} */
+}
 
 .form-signup input::placeholder{
   color: white;
@@ -79,16 +79,35 @@ a {
   margin-bottom: 20px;
   background: none;
   border: 1px solid white;
-  width:100%;
+  width:92.5%;
   cursor: pointer;
   font-size: 18px
 }
 .alt-signup{
+  margin-left: 10px;
+  display: block;
 
 }
 
+.alt{
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+.fa {
+  padding-right: 5px;
+}
+.facebook{
+  background-color: blue;
+  color: white
+}
+.google{
+  background-color: white;
+  color: red;
+}
 
-/* main 2 */
+/* main2 */
 .main2 {
     border-bottom: 3px solid cadetblue;
     padding-bottom: 20px;
