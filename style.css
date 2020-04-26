@@ -82,14 +82,27 @@ a {
 
 .form-signup input::placeholder{
   color: white;
+  opacity: 0.8;
+
 }
+.form-signup input:focus::placeholder{
+  color: transparent;
+
+}
+
 .button{
+  color: white;
   margin-bottom: 20px;
-  background: none;
+  background: rgba(255,255,230,0.5);
   border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0.5;
   width:92.5%;
   cursor: pointer;
   font-size: 18px
+}
+
+.button:hover{
 }
 .alt-signup{
   display: block;
