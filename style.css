@@ -1,12 +1,20 @@
-
-
 * {
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
@@ -35,18 +43,22 @@ a {
   height: 500px;
   background-color: aliceblue;
 }
-.heading{ 
+
+.heading {
   padding: 50px;
 }
+
 .top-wrapper h1 {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 20px;
 }
+
 .top-wrapper p {
   margin-bottom: 5px;
 }
-.signup{
+
+.signup {
   background: rgba(4, 29, 23, 0.5);
   width: 270px;
   box-shadow: 0px 0px 25px 10px black;
@@ -54,7 +66,8 @@ a {
   padding: 50px;
   text-align: center;
 }
-.form-signup{
+
+.form-signup {
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -62,97 +75,125 @@ a {
   border-bottom: 2px solid white;
 }
 
-.form-signup input{
-  width: 85%
-  padding:5px 0;
+.form-signup input {
+  width: 85% padding:5px 0;
   background: none;
   border: none;
   outline: none;
   color: white;
 }
 
-.form-signup input::placeholder{
+.form-signup input::placeholder {
   color: white;
 }
-.button{
+
+.button {
   margin-left: 10px;
   margin-bottom: 20px;
   background: none;
   border: 1px solid white;
-  width:92.5%;
+  width: 92.5%;
   cursor: pointer;
   font-size: 18px
 }
-.alt-signup{
+
+.alt-signup {
   margin-left: 10px;
   display: block;
 
 }
 
-.alt{
+.alt {
   margin-left: 5px;
   border-radius: 5px;
   padding: 5px;
   font-size: 12px;
 }
+
 .fa {
   padding-right: 5px;
 }
-.facebook{
+
+.facebook {
   background-color: blue;
   color: white
 }
-.google{
+
+.google {
   background-color: white;
   color: red;
 }
 
 /* main2 */
 .main2 {
-    border-bottom: 3px solid cadetblue;
-    padding-bottom: 20px;
-    text-align: center;
+  border-bottom: 3px solid cadetblue;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .headingTeams h1 {
-    font-family: serif;
-    font-size: xx-large;
-    font-weight: 500;
-    color: cadetblue;
-    margin: 40px 0px;
+  font-family: serif;
+  font-size: xx-large;
+  font-weight: 500;
+  color: cadetblue;
+  margin: 40px 0px;
 }
 
 .team-members {
-    /* item bertumpuk horizontal : buat di class yang membungkus item */
-    display: flex;
-    text-align: center;
-    margin-top: 20px;
+  /* item bertumpuk horizontal : buat di class yang membungkus item */
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .photo-member {
-    /* mengisi seluruh ruang lebar milik element induknya. */
-    flex: auto;
-    /* display: inline-block; */
+  /* mengisi seluruh ruang lebar milik element induknya. */
+  flex: auto;
+  /* display: inline-block; */
 }
 
-.photo-member img{
+.photo-member img {
   width: 100%;
 }
 
 .photo-member h4 {
-    text-align: center;
-    font-family: initial;
-    font-size: large;
-    font-weight: bolder;
-    color: cadetblue;
-    margin-bottom: 1px;
-    margin-top: 4px;
+  text-align: center;
+  font-family: initial;
+  font-size: large;
+  font-weight: bolder;
+  color: cadetblue;
+  margin-bottom: 1px;
+  margin-top: 4px;
 }
 
 .photo-member p {
-    text-align: center;
-    font-family: auto;
-    color: black;
-    font-size: medium;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: auto;
+  color: black;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+.socmed {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.socmed a {
+  margin-right: 20px;
+  margin-top: 40px;
+  color: cornflowerblue;
+  opacity: 0.8
+}
+
+.fa-facebook-f{
+  color: #3b5999;
+}
+
+.fa-linkedin{
+  color: #0077B5;
+}
+
+.fa-instagram{
+  color: #e4405f;
 }
