@@ -1,4 +1,4 @@
-/* Mulai code Anda dari baris terakhir */
+
 
 * {
   box-sizing: border-box;
@@ -75,10 +75,26 @@ a {
   margin-bottom: 20px;
   background: none;
   border: 1px solid white;
-  width:100%;
+  width:92.5%;
   cursor: pointer;
   font-size: 18px
 }
 .alt-signup{
+  margin-left: 10px;
+  display: block;
 
+}
+.alt{
+  margin-left: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+.facebook{
+  background-color: blue;
+  color: white
+}
+.google{
+  background-color: white;
+  color: red;
 }
