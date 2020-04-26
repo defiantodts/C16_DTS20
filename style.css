@@ -81,7 +81,8 @@ a {
 }
 
 .form-signup input {
-  width: 85% padding:5px 0;
+  width: 85%;
+  padding: 5px 0;
   background: none;
   border: none;
   outline: none;
