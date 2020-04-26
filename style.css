@@ -28,39 +28,61 @@ a {
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 15px;
+  max-width: 100%;
+  padding: 0 25px;
   margin: 0 auto;
+
+}
+.top-wrapper{
   display: flex;
   justify-content: space-between;
 }
 
-.top-wrapper {
+.Main1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0 50px 0;
   text-align: left;
-  height: 500px;
   background-color: aliceblue;
+  width: 100%
 }
+<<<<<<< HEAD
 
 .heading {
   padding: 50px;
 }
 
 .top-wrapper h1 {
+=======
+.heading{
+  margin-bottom: 10px;
+}
+.Main1 h1 {
+>>>>>>> 7103b10e195304018eba591befe07959bc2d71f9
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .top-wrapper p {
   margin-bottom: 5px;
 }
 
 .signup {
+=======
+.Main1 p {
+  margin-bottom: 5px;
+}
+
+.heading{
+  margin-bottom: 50px;
+}
+
+.signup{
+>>>>>>> 7103b10e195304018eba591befe07959bc2d71f9
   background: rgba(4, 29, 23, 0.5);
-  width: 270px;
+  width: 35%;
   box-shadow: 0px 0px 25px 10px black;
   border-radius: 10px;
   padding: 50px;
@@ -85,33 +107,47 @@ a {
 
 .form-signup input::placeholder {
   color: white;
+  opacity: 0.8;
+
+}
+.form-signup input:focus::placeholder{
+  color: transparent;
+
 }
 
-.button {
-  margin-left: 10px;
+.button{
+  color: white;
   margin-bottom: 20px;
-  background: none;
+  background: rgba(255,255,230,0.5);
   border: 1px solid white;
-  width: 92.5%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0.5;
+  width:92.5%;
   cursor: pointer;
-  font-size: 18px
+  opacity: 0.7;
+  font-size: 18px;
 }
 
-.alt-signup {
-  margin-left: 10px;
-  display: block;
-
+.button:hover{
+  opacity: 1; 
 }
 
-.alt {
+.alt-signup{
+  display:inline-block;
+}
+.alt{
   margin-left: 5px;
   border-radius: 5px;
   padding: 5px;
   font-size: 12px;
+  opacity: 0.7;
 }
 
 .fa {
-  padding-right: 5px;
+  padding-right: 3px;
+  border-right: 1px solid grey;
+  margin-right: 3px;
+
 }
 
 .facebook {
@@ -122,6 +158,9 @@ a {
 .google {
   background-color: white;
   color: red;
+}
+.alt:hover{
+  opacity: 1;
 }
 
 /* main2 */

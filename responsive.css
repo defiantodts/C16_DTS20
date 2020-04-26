@@ -1,4 +1,5 @@
-@media(max-width: 1200px) {
+@media(max-width: 1000px) {
+
     .team-members {
         flex-wrap: wrap;
     }
@@ -8,6 +9,18 @@
 }
 
 @media(max-width: 680px) {
+    .top-wrapper{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .heading{
+        text-align: center;
+    }
+    .signup{
+        width: 50%;
+        margin: 0 auto;
+    }
     .team-members {
         flex-direction: column;
     }
@@ -21,6 +34,19 @@
 }
 
 @media(max-width: 350px) {
+    .top-wrapper{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .heading{
+        text-align: center;
+    }
+
+    .signup{
+        width: 100%;
+        
+    }
     .team-members {
         flex-direction: column;
     }
