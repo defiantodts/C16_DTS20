@@ -32,6 +32,8 @@ a {
   background-repeat: no-repeat;
   padding: 100px 0 50px 0;
   text-align: left;
+  height: 500px;
+  background-color: aliceblue;
 }
 .heading{ 
   padding: 50px;
@@ -59,6 +61,7 @@ a {
   padding: 8px 0;
   border-bottom: 2px solid white;
 }
+
 .form-signup input{
   width: 85%
   padding:5px 0;
@@ -67,6 +70,7 @@ a {
   outline: none;
   color: white;
 }
+
 .form-signup input::placeholder{
   color: white;
 }
@@ -84,6 +88,7 @@ a {
   display: block;
 
 }
+
 .alt{
   margin-left: 5px;
   border-radius: 5px;
@@ -97,4 +102,61 @@ a {
 .google{
   background-color: white;
   color: red;
+
+/* main2 */
+.main2 {
+    border-bottom: 3px solid cadetblue;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.headingTeams h1 {
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: cadetblue;
+    margin: 40px 0px;
+}
+
+.team-members {
+    /* item bertumpuk horizontal : buat di class yang membungkus item */
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.photo-member {
+    /* mengisi seluruh ruang lebar milik element induknya. */
+    flex: auto;
+    /* display: inline-block; */
+}
+
+.photo-member img{
+  width: 100%;
+}
+
+.photo-member h4 {
+    text-align: center;
+    font-family: initial;
+    font-size: large;
+    font-weight: bolder;
+    color: cadetblue;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+
+.photo-member p {
+    text-align: center;
+    font-family: auto;
+    color: black;
+    font-size: medium;
+}
+
+.socmed {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.socmed a {
+    margin-right: 20px;
 }
