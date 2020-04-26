@@ -99,24 +99,28 @@ a {
   box-shadow: 2px 2px 0.5;
   width:92.5%;
   cursor: pointer;
-  font-size: 18px
+  opacity: 0.7;
 }
 
 .button:hover{
+  opacity: 1; 
 }
+
 .alt-signup{
-  display: block;
-
+  display:inline-block;
 }
-
 .alt{
   margin-left: 5px;
   border-radius: 5px;
   padding: 5px;
   font-size: 12px;
+  opacity: 0.7;
 }
 .fa {
-  padding-right: 5px;
+  padding-right: 3px;
+  border-right: 1px solid grey;
+  margin-right: 3px;
+
 }
 .facebook{
   background-color: blue;
@@ -125,6 +129,9 @@ a {
 .google{
   background-color: white;
   color: red;
+}
+.alt:hover{
+  opacity: 1;
 }
 
 /* main2 */
