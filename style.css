@@ -95,6 +95,9 @@ a {
   padding: 5px;
   font-size: 12px;
 }
+.fa {
+  padding-right: 5px;
+}
 .facebook{
   background-color: blue;
   color: white
