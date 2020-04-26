@@ -37,6 +37,7 @@ a {
 }
 .top-wrapper{
   display: flex;
+  justify-content: space-between;
 }
 
 .Main1 {
