@@ -1,12 +1,20 @@
-
-
 * {
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
@@ -63,7 +71,8 @@ a {
   padding: 50px;
   text-align: center;
 }
-.form-signup{
+
+.form-signup {
   display: flex;
   justify-content: space-between;
   margin: 10px;
@@ -71,16 +80,16 @@ a {
   border-bottom: 2px solid white;
 }
 
-.form-signup input{
-  width: 85%
-  padding:5px 0;
+.form-signup input {
+  width: 85%;
+  padding: 5px 0;
   background: none;
   border: none;
   outline: none;
   color: white;
 }
 
-.form-signup input::placeholder{
+.form-signup input::placeholder {
   color: white;
   opacity: 0.8;
 
@@ -117,17 +126,20 @@ a {
   font-size: 12px;
   opacity: 0.7;
 }
+
 .fa {
   padding-right: 3px;
   border-right: 1px solid grey;
   margin-right: 3px;
 
 }
-.facebook{
+
+.facebook {
   background-color: blue;
   color: white
 }
-.google{
+
+.google {
   background-color: white;
   color: red;
 }
@@ -137,50 +149,74 @@ a {
 
 /* main2 */
 .main2 {
-    border-bottom: 3px solid cadetblue;
-    padding-bottom: 20px;
-    text-align: center;
+  border-bottom: 3px solid cadetblue;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .headingTeams h1 {
-    font-family: serif;
-    font-size: xx-large;
-    font-weight: 500;
-    color: cadetblue;
-    margin: 40px 0px;
+  font-family: serif;
+  font-size: xx-large;
+  font-weight: 500;
+  color: cadetblue;
+  margin: 40px 0px;
 }
 
 .team-members {
-    /* item bertumpuk horizontal : buat di class yang membungkus item */
-    display: flex;
-    text-align: center;
-    margin-top: 20px;
+  /* item bertumpuk horizontal : buat di class yang membungkus item */
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .photo-member {
-    /* mengisi seluruh ruang lebar milik element induknya. */
-    flex: auto;
-    /* display: inline-block; */
+  /* mengisi seluruh ruang lebar milik element induknya. */
+  flex: auto;
+  /* display: inline-block; */
 }
 
-.photo-member img{
+.photo-member img {
   width: 100%;
 }
 
 .photo-member h4 {
-    text-align: center;
-    font-family: initial;
-    font-size: large;
-    font-weight: bolder;
-    color: cadetblue;
-    margin-bottom: 1px;
-    margin-top: 4px;
+  text-align: center;
+  font-family: initial;
+  font-size: large;
+  font-weight: bolder;
+  color: cadetblue;
+  margin-bottom: 1px;
+  margin-top: 4px;
 }
 
 .photo-member p {
-    text-align: center;
-    font-family: auto;
-    color: black;
-    font-size: medium;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: auto;
+  color: black;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+.socmed {
+  text-align: center;
+  margin-bottom: 20px
+}
+
+.socmed a {
+  margin-right: 20px;
+  margin-top: 40px;
+  color: cornflowerblue;
+  opacity: 0.8
+}
+
+.fa-facebook-f{
+  color: #3b5999;
+}
+
+.fa-linkedin{
+  color: #0077B5;
+}
+
+.fa-instagram{
+  color: #e4405f;
 }
