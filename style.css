@@ -20,35 +20,44 @@ a {
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 15px;
+  max-width: 100%;
+  padding: 0 25px;
   margin: 0 auto;
+
+}
+.top-wrapper{
   display: flex;
   justify-content: space-between;
 }
 
-.top-wrapper {
+.Main1 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0 50px 0;
   text-align: left;
-  height: 500px;
   background-color: aliceblue;
+  width: 100%
 }
-.heading{ 
-  padding: 50px;
+.heading{
+  margin-bottom: 10px;
 }
-.top-wrapper h1 {
+.Main1 h1 {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 20px;
 }
-.top-wrapper p {
+
+.Main1 p {
   margin-bottom: 5px;
 }
+
+.heading{
+  margin-bottom: 50px;
+}
+
 .signup{
   background: rgba(4, 29, 23, 0.5);
-  width: 270px;
+  width: 35%;
   box-shadow: 0px 0px 25px 10px black;
   border-radius: 10px;
   padding: 50px;
@@ -75,7 +84,6 @@ a {
   color: white;
 }
 .button{
-  margin-left: 10px;
   margin-bottom: 20px;
   background: none;
   border: 1px solid white;
@@ -84,7 +92,6 @@ a {
   font-size: 18px
 }
 .alt-signup{
-  margin-left: 10px;
   display: block;
 
 }
