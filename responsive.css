@@ -1,5 +1,4 @@
-@media(max-width: 1000px) {
-
+@media(max-width: 1200px) {
     .team-members {
         flex-wrap: wrap;
     }
@@ -9,24 +8,11 @@
 }
 
 @media(max-width: 680px) {
-    .top-wrapper{
-        flex-direction: column;
-        margin: 0 auto;
-
-    }
-    .heading{
-        text-align: center;
-    }
-    .signup{
-        width: 75%;
-        margin: 0 auto;
-    }
     .team-members {
         flex-direction: column;
     }
     .team-members img {
         margin: 0 auto;
-        width: 20%
     }
     .photo-member {
         text-align: center;
