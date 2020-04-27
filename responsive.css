@@ -9,6 +9,22 @@
 }
 
 @media(max-width: 680px) {
+    .wrap{
+        display:none;
+    }
+    .title{
+        text-align: center;
+        margin:25px auto;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .search{
+        display:none;
+    }
     .container{
         flex-direction: column;
         margin: 0 auto;
