@@ -34,7 +34,32 @@ header {
   height: 100px;
   background-color: #1abc9c;
 }
+.menu-icon{
+  font-size: 25px
+  padding:20px 0px;
+  float: right;
+  display: none;
+}
 
+.title{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.title h1{
+  font-size: 50px;
+}
+.wrap{
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+}
+
+.wrap a{
+  padding: 15px;
+}
+.search{
+  padding-top: 75px;
+}
 header h1 {
   padding-top: 15px;
   padding-bottom: 0px;
