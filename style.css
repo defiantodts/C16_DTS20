@@ -34,12 +34,6 @@ header {
   height: 100px;
   background-color: #96c9d7;
 }
-.menu-icon{
-  font-size: 50px;
-  padding:20px 0px;
-  float: right;
-  display: none;
-}
 
 .title{
     margin-top: 15px;
