@@ -60,41 +60,6 @@ header {
 .search{
   padding-top: 75px;
 }
-header h1 {
-  padding-top: 15px;
-  padding-bottom: 0px;
-  text-align: left;
-  font-size: 50px;
-  color: snow;
-  font-family: fantasy;
-}
-
-.nav-menu ul {
-  overflow: hidden;
-  color: #fff;
-  list-style: none;
-  float: left;
-  padding: 0;
-  width: 650px;
-  margin: 0 0 0;
-  background: #1abc9c;
-}
-
-header label {
-  float: right;
-  margin-top: -22px;
-  padding: 2px;
-}
-
-header input[type=search] {
-  float: right;
-  margin-top: -20px;
-  padding: 2px;
-  width: 180px;
-  height: 20px;
-
-}
-
 
 .container {
   max-width: 100%;
